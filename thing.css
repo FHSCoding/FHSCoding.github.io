@@ -283,14 +283,14 @@ main {
 .status-badge {
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     white-space: nowrap;
 }
 
-.status-completed {
+.status-shipped {
     background-color: #27ae60;
     color: white;
 }
@@ -300,23 +300,19 @@ main {
     color: white;
 }
 
-.status-testing {
-    background-color: #9b59b6;
-    color: white;
-}
 
 .status-planning {
-    background-color: #95a5a6;
+    background-color: #ff6b6b;
     color: white;
 }
 
-.project-meta {
+.project-text {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ecf0f1;
 }
 
-.project-meta p {
+.project-text p {
     margin: 0.5rem 0;
     font-size: 0.9rem;
 }
